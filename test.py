@@ -1,6 +1,6 @@
 x = int (input ("Number: "))
 
-if x > 3:
+if x > 4:
     print("Number is +")
 
 elif x == 0:
