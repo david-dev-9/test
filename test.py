@@ -18,9 +18,3 @@ else :
     print("oh sheet")
 
 
-age = int(input("who old are you?"))
-
-if age > 18:
-    print("ok , enjoy my web")
-else:
-    print("this web not good for you")    
