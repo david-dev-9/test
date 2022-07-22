@@ -16,5 +16,8 @@ elif gen == "woman":
 
 else :
     print("oh sheet")
+    
+ age = int(input(age))
+print("age")
 
 
