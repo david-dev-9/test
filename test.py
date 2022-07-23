@@ -1,15 +1,26 @@
-x = int (input ("Number: "))
 
-if x > 5:
-    print("Number is +")
 
-elif x == 0:
-    print("Number is zero")
-elif x ==1 :
-    print("Nmber is 1")
-elif x ==2 :
-    print("Nmber is 2")
-elif x ==3 :
-    print("Nmber is 3")    
+
+name = input('name: ')
+print (f"hello ,  {name} , wellcome to my web")
+
+
+gen = str(input("you are man or woman ?"))
+
+
+if gen == 'man' :
+    print("oh yes")
+
+elif gen == "woman":
+    print("very good ")
+
 else :
-    print("Number is -")
+    print("oh sheet")
+
+
+age = int(input("who old are you?"))
+
+if age > 18:
+    print("ok , enjoy my web")
+else:
+    print("this web not good for you")    
